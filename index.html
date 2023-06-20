@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Trab EAMST</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:20000px">
+<!--menu-->
+<nav class="w3-sidebar w3-bar-block w3-black w3-animate-left w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;left:0;" id="mySidebar">
+  <div class="w3-container">
+    <h4><b>GEOMETRIA</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-close w3-xxlarge w3-margin-right w3-center"></i>FECHAR</a>
+    <a href="#conceito" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="material-icons w3-margin-right w3-center">book</i>CONCEITO</a> 
+    <a href="#area" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="material-icons">ruler</i>ÁREA</a> 
+    <a href="#perimetro" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="material-icons w3-margin-right w3-center">square</i>PERÍMETRO</a>
+    <a href="#cotidiano" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="material-icons w3-margin-right">home</i>COTIDIANO</a> 
+  </div>
+</nav>
+<!--animação da barra lateral-->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+  <!--conceito-->
+  <header>
+    <span class="w3-button w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h3 id="conceito"><b>CONCEITO DE GEOMETRIA</b></h3>
+    </div>
+  </header>
+  <!--conceito de geometria-->
+  <div class="w3-container" style="margin-bottom:2px">
+        <h5><p> Geometria é a área da matemática que trabalha com área e perímetro. A geometria é o estudo das formas, tamanhos,  posições e propriedades dos
+           objetos no espaço, incluindo figuras geométricas como triângulos, retângulos, círculos, entre outros. O cálculo da área e perímetro de figuras
+            geométricas é uma parte importante da geometria e é frequentemente aplicado em diversas áreas, como engenharia, arquitetura, design, entre outras.
+        </p></h5>
+  </div><br><br>
+
+  <!--area e perimetro-->
+  <div class="w3-container">
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-opacity-off">
+            <li class="w3-red w3-xlarge w3-padding" id="area">O que é área?</li>
+            <img src="ar.jpg" alt="Lights" style="width:70%">
+
+            <li class="w3-light-grey w3-padding-24">A área se refere à medida total que uma figura ocupa no plano. Conforme apresentado na imagem acima, existem diversas 
+              formas de se achar a área das figuras geométricas e um fator interessante é que todas possuem alguma relação com a multiplicação.</li>
+          </ul>
+        </div>
+        
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-opacity-off">
+            <li class="w3-blue w3-xlarge w3-padding" id="perimetro">O que é perímetro?</li>
+            <img src="per.jpg" alt="Lights" style="width: 92%">
+            <li class="w3-light-grey w3-padding-large">Perímetro: é a soma dos tamanhos dos segmentos de reta, ou seja, dos lados da figura. Com base no exemplo anterior 
+              nota-se que existem diversas formas de calcular e que cada uma tem sua peculiaridade.</li>
+          </ul>
+        </div>
+      </div><br><br>
+  </div>
+  <!--cotidiano-->
+  <div class="w3-container">
+      <h3 id="cotidiano"><b>A geometria no cotidiano</b></h3><br>
+  </div>
+<div class="w3-container">
+  <div class="w3-row" >
+    <div class="w3-col" style="width:25%">
+          <div class="w3-card-4 test" style="width:100%;max-width:370px;">
+            <img src="art.jpg" alt="avatar" style="width:100%;opacity:0.85">
+            <div class="w3-container">
+              <h4><b><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Frank Lloyd Wrigh</span></span></b></h4><p>Sendo um arquiteto famoso capaz projetar edifícios,
+                 estruturas e espaços urbanos de forma precisa e eficiente.</p>   
+            </div>
+          </div>
+          <br>
+    </div>
+    <div class="w3-col" style="width:25%">
+        <div class="w3-card-4 test" style="width:80%;max-width:600px;">
+            <img src="fi.jpg" alt="avatar" style="width:100%;opacity:0.85">
+            <div class="w3-container">
+            <h4><b><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Neil deGrasse Tyson</span></span></b></h4><p>Um Astrofísico que trabalha com a geometria e sendo
+               usada para estudar as formas e estruturas em grande escala do universo.</p>
+            </div>
+          </div>
+          <br>
+    </div>
+    <div class="w3-col" style="width:25%">
+        <div class="w3-card-4 test" style="width:92%;max-width:400px;">
+            <img src="ab.jpg" alt="avatar" style="width:100%;opacity:0.85">
+            <div class="w3-container">
+            <h4><b><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Shigeru Miyamoto</span></span></b></h4><p>Os designers de jogos usam a geometria para criar ambientes
+               virtuais, definir os movimentos dos personagens e calcular colisões e interações dentro dos jogos.</p>       
+            </div>
+          </div>
+          <br>
+    </div>
+    <div class="w3-col" style="width:25%">
+        <div class="w3-card-4 test" style="width:92%;max-width:200px;">
+            <img src="b.jpg" alt="avatar" style="width:100%;opacity:0.85">
+            <div class="w3-container">
+            <h4><b><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Giorgio Armani</span></span></b></h4><p>Os designers de moda utilizam a geometria para criar padrões, cortes e 
+              formas de roupas, levando em consideração proporções e ajustes geométricos.</p>       
+            </div>
+          </div>
+          <br>
+    </div>
+  </div>
+</div>
+  <div class="w3-container">
+    <div class="w3-col" style="width:25%">
+        <div class="w3-card-4 test" style="width:100%;max-width:400px;">
+            <img src="grafico.png" alt="avatar" style="width:100%;opacity:0.85">
+            <div class="w3-container">
+            <h4><b><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Paul Rand</span></span></b></h4><p> Os designers gráficos usam a geometria para criar layouts, composições visuais 
+              e logos, aplicando princípios geométricos de equilíbrio, proporção e alinhamento.</p>      
+            </div>
+          </div>
+          <br>
+    </div>
+    <div class="w3-col" style="width:25%">
+        <div class="w3-card-4 test" style="width:92%;max-width:300px;">
+            <img src="urba.jpg" alt="avatar" style="width:100%;opacity:0.85">
+            <div class="w3-container">
+            <h4><b><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jane Jacobs</span></span></b></h4><p>Os urbanistas aplicam a geometria para planejar e desenvolver o uso do espaço em
+               áreas urbanas, considerando o posicionamento de edifícios, ruas, parques e infraestrutura.</p>      
+            </div>
+          </div>
+          <br>
+    </div>
+    <div class="w3-col" style="width:25%">
+        <div class="w3-card-4 test" style="width:92%;max-width:300px;">
+            <img src="george.jpg" alt="avatar" style="width:100%;opacity:0.85">
+            <div class="w3-container">
+            <h4><b><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">George Everest</span></span></b></h4><p>Os topógrafos utilizam a geometria para medir, mapear e modelar o terreno, 
+              identificando elevações, curvas de nível e coordenadas geográficas.</p>    
+            </div>
+          </div>
+          <br>
+    </div>
+    <div class="w3-col" style="width:25%">
+        <div class="w3-card-4 test" style="width:92%;max-width:300px;">
+            <img src="carl.jpg" alt="avatar" style="width:100%;opacity:0.85">
+            <div class="w3-container">
+            <h4><b><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Carl Bass</span></span></b></h4><p>Profissionais de CAD (Computer-Aided Design) utilizam softwares de desenho assistido por 
+              computador para criar modelos tridimensionais e desenhos técnicos, aplicando conceitos e operações geométricas.</p>      
+            </div>
+          </div>
+          <br>
+    </div>
+  </div>
+      <!-- Pagination -->
+    <div class="w3-center w3-padding-32">
+        <div class="w3-bar">
+           <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+           <a href="ptjogos.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+           <a href="ptjogos.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+        </div>
+    </div>
+  </div>
+  </footer>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
